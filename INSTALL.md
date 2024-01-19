@@ -9,7 +9,7 @@
 
 ### Usage
 
-Install required packages. 
+Install required packages.
 
 ```bash
 conda create --name ovseg python=3.8
@@ -30,4 +30,10 @@ FurtherMore, install the modified clip package.
 ```bash
 cd third_party/CLIP
 python -m pip install -Ue .
+```
+
+### Docker
+
+```bash
+$ docker build -t denden047/ov_seg .
 ```
